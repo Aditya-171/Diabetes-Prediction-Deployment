@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prediction</title>
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+     <link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+
+     <style>
+     	h1{
+     		font-family: 'Francois One', sans-serif;
+     	}
+     </style>
+</head>
+<body>
+		
+		<div class="results">
+			{% if prediction==1 %}
+				<h1 class="text-center">Prediction:You have DIABETES</h1>
+			{% elif prediction==0 %}
+				<h1 class="text-center">Prediction:You DON'T have diabetes.</h1>
+			{% endif %}
+		</div>
+
+
+</body>
+</html>
