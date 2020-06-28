@@ -1,1 +1,1 @@
-# Diabeties-Prediction-Deployment
+# Diabetes-Prediction-Deployment
