@@ -1,5 +1,5 @@
 # Diabetes-Prediction-Deployment
-Demo link- https://diabetes-prediction-deploy.herokuapp.com/
+Demo link- [Click Here](https://diabetes-prediction-deploy.herokuapp.com)
 
 Project description
 
